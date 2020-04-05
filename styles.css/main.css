@@ -1,0 +1,19 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* Evenly space the child elements */
+}
+ .shop {
+    
+    flex-basis: 25%;
+    border: 1px dotted rgb(0, 0, 0);
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+    color: aliceblue;
+    background: linear-gradient(rgb(80, 79, 79),black,rgb(99, 97, 97)); /* Center align the text in the boxes */
+}
+    
+.pageHeader {
+    text-align: center;
+}
